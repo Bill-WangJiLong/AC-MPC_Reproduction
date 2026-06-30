@@ -91,11 +91,17 @@ Flightmare build/externals 构建缓存
 
 ### 2.2 从远程 Git 仓库 clone
 
-将本地一体化仓库推送到自己的 GitHub、GitLab 或其他私有 Git 服务后，在目标设备执行：
+当前远程仓库为：
+
+```text
+https://github.com/Bill-WangJiLong/AC-MPC_Reproduction.git
+```
+
+在目标设备执行：
 
 ```powershell
 Set-Location D:\MyProjects
-git clone <你的远程仓库URL> acmpc_reproduction_repo
+git clone https://github.com/Bill-WangJiLong/AC-MPC_Reproduction.git acmpc_reproduction_repo
 Set-Location .\acmpc_reproduction_repo
 
 $AcmPcRoot = (Resolve-Path .\acmpc_public).Path

@@ -2,6 +2,10 @@
 
 本仓库是当前 AC-MPC 仿真复现工程的一体化源码快照，用于跨设备部署和继续开发。
 
+```powershell
+git clone https://github.com/Bill-WangJiLong/AC-MPC_Reproduction.git acmpc_reproduction_repo
+```
+
 ```text
 acmpc_reproduction_repo/
 ├── acmpc_public/   # AC-MPC、Gym、PPO、MPVE、训练与评估脚本
