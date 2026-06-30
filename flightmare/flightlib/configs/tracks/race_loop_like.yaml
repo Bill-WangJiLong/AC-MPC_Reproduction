@@ -1,0 +1,59 @@
+track:
+  name: "race_loop_like"
+  start:
+    position: [-6.5, -5.0, 2.0]
+    yaw: 0
+  finish:
+    position: [-7.0, -5.85, 2.0]
+    radius: 0.5
+  world_bounds: [[-15.0, 15.0], [-15.0, 15.0], [0.0, 15.0]]
+  gates:
+    - center: [-5.4, -5.0, 2.0]
+      normal: [1.0, 0.0, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G0"
+    - center: [8.5, -3.8, 2.2]
+      normal: [0.9963, 0.086, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G2"
+    - center: [8.7, 5.6, 2.4]
+      normal: [0.0213, 0.9998, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G1"
+    - center: [-1.0, -0.8, 2.2]
+      normal: [-0.8347, -0.5507, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G4"
+    - center: [-2.3, 5.3, 2.5]
+      normal: [-0.2084, 0.978, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G5"
+    - center: [4.0, 0.0, 2.3]
+      normal: [0.7652, -0.6438, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G3"
+    - center: [-5.4, -5.0, 2.0]
+      normal: [-0.8829, -0.4696, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.9
+      height: 1.7
+      frame_thickness: 0.12
+      label: "G0/end"

@@ -1,0 +1,42 @@
+racing_env:
+  sim_dt: 0.02
+  max_t: 10.0
+  max_episode_steps: 500
+  random_reset: yes
+  drone_radius: 0.18
+  world_box: [[-8.0, 12.0], [-6.0, 6.0], [0.0, 7.0]]
+
+quadrotor_dynamics:
+  mass: 0.752
+  arm_l: 0.17
+  motor_omega_min: 150.0
+  motor_omega_max: 1700.0
+  motor_tau: 0.0001
+  thrust_map: [1.3298253500372892e-06, 0.0038360810526746033, -1.7689986848125325]
+  kappa: 0.016
+  omega_max: [10.0, 10.0, 4.0]
+
+initial_state:
+  position: [-2.0, 0.0, 2.0]
+  velocity: [0.0, 0.0, 0.0]
+  yaw: 0.0
+  position_noise: [0.05, 0.05, 0.02]
+  velocity_noise: [0.02, 0.02, 0.02]
+  yaw_noise: 0.02
+
+action:
+  thrust_max_per_motor: 8.5
+  omega_max: [10.0, 10.0, 4.0]
+
+observation:
+  future_gate_count: 2
+  track_obs_mode: vehicle_relative
+
+reward:
+  collision_reward: -10.0
+  gate_pass_reward: 10.0
+  finish_reward: 10.0
+  body_rate_coeff: 0.01
+
+track:
+  track_path: "D:/MyProjects/flightmare/flightlib/configs/tracks/vertical.yaml"

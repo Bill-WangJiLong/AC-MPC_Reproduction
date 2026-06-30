@@ -1,0 +1,31 @@
+track:
+  name: "horizontal"
+  start:
+    position: [-2.0, 0.0, 2.0]
+    yaw: 0
+  finish:
+    position: [6.0, 0.0, 2.0]
+    radius: 0.5
+  world_bounds: [[-8.0, 12.0], [-6.0, 6.0], [0.0, 7.0]]
+  gates:
+    - center: [0.0, 0.0, 2.0]
+      normal: [1.0, 0.0, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.5
+      height: 1.5
+      frame_thickness: 0.12
+      label: "G0"
+    - center: [2.0, 0.0, 2.0]
+      normal: [1.0, 0.0, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.5
+      height: 1.5
+      frame_thickness: 0.12
+      label: "G1"
+    - center: [4.0, 0.0, 2.0]
+      normal: [1.0, 0.0, 0.0]
+      up: [0.0, 0.0, 1.0]
+      width: 1.5
+      height: 1.5
+      frame_thickness: 0.12
+      label: "G2"

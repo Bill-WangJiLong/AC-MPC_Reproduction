@@ -1,0 +1,22 @@
+# Python generated files
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Training outputs and temporary artifacts
+/acmpc_public/runs/
+/acmpc_public/output/
+/acmpc_public/tmp/
+/acmpc_public/tmp_*/
+/acmpc_public/tmp_acmpc_paper.txt
+
+# Flightmare native build products
+/flightmare/flightlib/build/
+/flightmare/flightlib/externals/
+/flightmare/flightlib/*.pyd
+
+# Local logs and backup files
+*.log
+*.bak
+

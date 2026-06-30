@@ -1,0 +1,85 @@
+{
+  "training": {
+    "gym_horizontal_train": {
+      "episodes": 3215,
+      "recent_window": 100,
+      "recent_return_mean": 33.05740224609781,
+      "recent_success_rate": 0.99,
+      "recent_collision_rate": 0.01,
+      "recent_timeout_rate": 0.0,
+      "recent_gate_index_mean": 2.99,
+      "recent_episode_length_mean": 51.89
+    },
+    "gym_split_s_train": {
+      "episodes": 12450,
+      "recent_window": 100,
+      "recent_return_mean": 29.758232765876475,
+      "recent_success_rate": 0.0,
+      "recent_collision_rate": 0.88,
+      "recent_timeout_rate": 0.12,
+      "recent_gate_index_mean": 2.25,
+      "recent_episode_length_mean": 256.94
+    },
+    "gym_mpve_horizontal_train": {
+      "episodes": 2787,
+      "recent_window": 100,
+      "recent_return_mean": 33.632163929835954,
+      "recent_success_rate": 1.0,
+      "recent_collision_rate": 0.0,
+      "recent_timeout_rate": 0.0,
+      "recent_gate_index_mean": 3.0,
+      "recent_episode_length_mean": 41.04
+    },
+    "flightmare_horizontal_train": {
+      "episodes": 1277,
+      "recent_window": 100,
+      "recent_return_mean": 33.53471010604407,
+      "recent_success_rate": 1.0,
+      "recent_collision_rate": 0.0,
+      "recent_timeout_rate": 0.0,
+      "recent_gate_index_mean": 3.0,
+      "recent_episode_length_mean": 64.97
+    }
+  },
+  "evaluation": {
+    "gym_horizontal_eval": {
+      "episodes": 16,
+      "return_mean": 33.7920104474324,
+      "return_std": 0.07193651160398273,
+      "success_rate": 1.0,
+      "crash_rate": 0.0,
+      "timeout_rate": 0.0,
+      "average_length": 50.25,
+      "average_velocity": 6.323323197066058,
+      "average_lap_time_successes": 1.005,
+      "final_gate_index_mean": 3.0
+    },
+    "gym_split_s_eval": {
+      "episodes": 32,
+      "return_mean": 17.628398507280508,
+      "return_std": 6.48684583496256,
+      "success_rate": 0.0,
+      "crash_rate": 1.0,
+      "timeout_rate": 0.0,
+      "average_length": 65.1875,
+      "average_velocity": 15.652954785979006,
+      "average_lap_time_successes": NaN,
+      "final_gate_index_mean": 1.5
+    },
+    "flightmare_horizontal_eval": {
+      "episodes": 16,
+      "return_mean": 34.07396502530901,
+      "return_std": 0.04763640265064517,
+      "success_rate": 1.0,
+      "crash_rate": 0.0,
+      "timeout_rate": 0.0,
+      "average_length": 63.875,
+      "average_velocity": 4.887190809196332,
+      "average_lap_time_successes": 1.2774999999999999,
+      "final_gate_index_mean": 3.0
+    }
+  },
+  "assets": {
+    "split_s_track_layout": "D:\\MyProjects\\acmpc_public\\docs\\report_assets\\acmpc_weekly_20260626\\split_s_track_layout.png"
+  }
+}
